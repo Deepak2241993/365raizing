@@ -14,7 +14,7 @@
     },
     "servers": [
         {
-            "url": "http://localhost/365raizing/public/api/"
+            "url": "http://localhost/365raizing-api/public/api/"
         }
     ],
     "paths": {
