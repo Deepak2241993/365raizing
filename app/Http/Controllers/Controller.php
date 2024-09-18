@@ -10,23 +10,6 @@ use App\Models\Websitesetting;
 
 class Controller extends BaseController
 {
-
-  /**
- * @OA\Info(
- *     title="Raizing 365 Group",
- *     version="1.0.0",
- *     description="API documentation for Andriod App Raizing 365",
- *     @OA\Contact(
- *         email="deepak@thetemz.com"
- *     ),
- *     @OA\License(
- *         name="Apache 2.0",
- *         url="http://www.apache.org/licenses/LICENSE-2.0.html"
- *     )
- * )
- */
-
-
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function upload_single_image($file,$folder)
